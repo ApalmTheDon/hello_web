@@ -111,5 +111,24 @@ body {
 		</div>
 	</div>
 	
+<section style="max-width: 600px; margin: 50px auto; font-family: sans-serif;">
+  <h2 style="text-align: center;">💬 Leave a Comment</h2>
 
+  <form name="comment" method="POST" data-netlify="true" style="display: flex; flex-direction: column; gap: 15px;">
+    
+    <label>
+      Name:
+      <input type="text" name="name" required style="padding: 10px; width: 100%; border: 1px solid #ccc; border-radius: 5px;">
+    </label>
+
+    <label>
+      Comment:
+      <textarea name="comment" rows="5" required style="padding: 10px; width: 100%; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+    </label>
+
+    <button type="submit" style="padding: 12px; background-color: #4CAF50; color: white; border: none; border-radius: 6px; font-size: 16px; cursor: pointer;">
+      Submit
+    </button>
+  </form>
+</section>
 	
